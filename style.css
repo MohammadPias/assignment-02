@@ -41,3 +41,30 @@ header{
     width: 100%;
 }
 /* main area style */
+
+.content-area{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px;
+    margin: 70px 0;
+}
+.player{
+    width: 330px;
+    box-shadow: 2px 2px 5px grey;
+}
+.player-detail{
+    padding: 15px;
+}
+.player-detail img{
+    width: 100%;
+    height: 256px;
+}
+.player-detail h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* footer area style */
