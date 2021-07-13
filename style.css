@@ -10,6 +10,7 @@ body{
 header{
     background-color: #2D25A0;
     width: 100%;
+    transition: background-color 1s;
 }
 .top-area{
     display: flex;
@@ -39,6 +40,14 @@ header{
 }
 .half-width img{
     width: 100%;
+    opacity: .3;
+    transition: opacity 1s;
+}
+header:hover .half-width img{
+    opacity: 1;
+}
+header:hover {
+    background-color: #181455;
 }
 /* main area style */
 
@@ -68,3 +77,26 @@ header{
     font-weight: bold;
 }
 /* footer area style */
+.footer-area{
+    display: flex;
+    justify-content: center;
+}
+.bottom-area{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+}
+.media-icon{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.grey{
+    color: grey;
+    font-size: 30px;
+}
