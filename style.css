@@ -76,6 +76,43 @@ header:hover {
     font-size: 28px;
     font-weight: bold;
 }
+/* fratures area */
+#fratures{
+    flex-direction: column;
+    align-items: center;
+}
+.feature-items{
+    width: 1050px;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.cover-image img{
+    width: 510px;
+}
+.feature{
+    box-shadow: 2px 2px 5px grey;
+    padding: 15px;
+}
+.feature-details{
+    width: 510px;
+}
+/* Featured sports style */
+.sport-features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.sport-feature{
+    display: flex;
+    align-items: center;
+}
+.sport-feature img{
+    width: 60px;
+    height: 60px;
+}
 /* footer area style */
 .footer-area{
     display: flex;
@@ -87,6 +124,7 @@ header:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
 }
 .logo img{
     width: 100%;
