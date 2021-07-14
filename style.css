@@ -6,7 +6,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-/* header style */
+/* header area style */
 header{
     background-color: #2D25A0;
     width: 100%;
@@ -50,7 +50,7 @@ header:hover {
     background-color: #181455;
 }
 /* main area style */
-
+/* Players area style */
 .content-area{
     display: flex;
     justify-content: center;
@@ -76,7 +76,7 @@ header:hover {
     font-size: 28px;
     font-weight: bold;
 }
-/* fratures area */
+/* fratured area style */
 #fratures{
     flex-direction: column;
     align-items: center;
@@ -99,7 +99,7 @@ header:hover {
 .feature-details{
     width: 480x;
 }
-/* Featured sports style */
+/* Sports featured area style */
 .sports{
     width: 1050px;
     margin-top: 80px;
@@ -203,6 +203,41 @@ header:hover {
     }
     .feature-items h1, .sports h1{
         margin-left: 30px;
+    }
+}
+
+/* For tablet device */
+@media only screen and (max-width:992px) and (min-width:689px) {
+    header{
+        width: 100%;
+
+    }
+    .top-area, .sports{
+        width: 90%;
+        padding: 0;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .half-width{
+        width: 40%;
+        margin: 50px 0;
+    }
+    .half-width h1 {
+        font-size: 35px;
+        width: 80%;
+        height: 52%;
+        margin-top: 65px;
+    }
+    .players, .feature-items, .sport-features {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 50px auto;
+    }
+    .player, .features{
+        width: 100%;
+    }
+    .cover-image img {
+        width: 100%;
     }
 }
 
