@@ -15,6 +15,7 @@ header{
 .top-area{
     display: flex;
     padding: 80px 140px;
+    justify-content: space-between;
 }
 .half-width{
     width: 50%;
@@ -48,6 +49,10 @@ header:hover .half-width img{
 }
 header:hover {
     background-color: #181455;
+}
+header:hover #banner-player{
+    transform: rotate(45deg);
+    transition-duration: 1s;
 }
 /* main area style */
 /* Players area style */
